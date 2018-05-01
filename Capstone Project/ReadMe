@@ -1,0 +1,5 @@
+The Kaggle Plant Seedlings Classification projects requires to classify mages of plants into one of tweleve different classes.
+
+The Libraraies used in this projects are: Numpy, Pandas, Matplotlib, Keras, SKlearn and OpenCV.
+
+The results.csv file is my Kaggle submission file where the right column contains the image ids and the left column contains the predictions of the model
