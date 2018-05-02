@@ -13168,6 +13168,18 @@ test_{network} = bottleneck_features['test']</code></pre>
 <p><strong>Question 5:</strong> Outline the steps you took to get to your final CNN architecture and your reasoning at each step.  Describe why you think the architecture is suitable for the current problem.</p>
 <p><strong>Answer:</strong></p>
 <p>I used a Resnet50 model for this segment. I recievd an val_acc of 83% for 30 epochs. All the model needed was a Global AveragePooling, Dropout and a Dense layer with a softmax activation function.</p>
+<p><strong>Resubmit edit</strong>
+I thought this was the best model because:</p>
+<ol>
+<li>when deep networks start converging, the accuracy gets saturated and degrades. Resnets solve the degradation problem.</li>
+<li><img src="attachment:image.png" alt="image.png"></li>
+<li>Resnets have been used in many different successful projects attaining highly successful result</li>
+</ol>
+<p>I personally did not configure any internal code rather added a few lines.</p>
+<p>WORKS CITED</p>
+<ul>
+<li><a href="https://medium.com/@14prakash/understanding-and-implementing-architectures-of-resnet-and-resnext-for-state-of-the-art-image-cf51669e1624">https://medium.com/@14prakash/understanding-and-implementing-architectures-of-resnet-and-resnext-for-state-of-the-art-image-cf51669e1624</a></li>
+</ul>
 
 </div>
 </div>

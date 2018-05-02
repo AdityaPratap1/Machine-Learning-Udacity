@@ -663,6 +663,21 @@ test_resnet = bottleneck_features['test']
 # __Answer:__ 
 # 
 # I used a Resnet50 model for this segment. I recievd an val_acc of 83% for 30 epochs. All the model needed was a Global AveragePooling, Dropout and a Dense layer with a softmax activation function.
+# 
+# **Resubmit edit**
+# I thought this was the best model because:
+# 
+# 1. when deep networks start converging, the accuracy gets saturated and degrades. Resnets solve the degradation problem.
+# 2. ![image.png](attachment:image.png)
+# 3. Resnets have been used in many different successful projects attaining highly successful result
+# 
+# I personally did not configure any internal code rather added a few lines.
+# 
+# WORKS CITED
+# - https://medium.com/@14prakash/understanding-and-implementing-architectures-of-resnet-and-resnext-for-state-of-the-art-image-cf51669e1624
+# 
+# 
+# 
 
 # In[43]:
 
